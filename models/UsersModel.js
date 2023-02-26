@@ -2,7 +2,8 @@ const  mongoose=require('mongoose');
 
 const DataSchema=mongoose.Schema({
     email:{
-        type:String,unique:true
+        type:String,
+        unique:true
     },
     firstName:{
         type:String

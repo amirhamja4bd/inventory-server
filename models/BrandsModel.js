@@ -5,7 +5,8 @@ const DataSchema=mongoose.Schema({
         type:String
     },
     Name:{
-        type:String,unique:true
+        type:String,
+        unique:true
     },
     
 },{timestamps: true, versionKey:false});
